@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sliven Cinema</title>
+  <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
+</head>
+<body>
+    <section class="header">
+      <div class="name">
+        Sliven Cinema
+      </div>
+      <div class="wrapper">
+        <div class="filter-options">
+          <button type="button" class="button dropdown">Select filters</button>
+          <div class="dropdown list">
+            <ul>
+              <li>
+                  <input type="checkbox" value="Action"/>Action</li>
+              <li>
+                  <input type="checkbox" value="Comedy"/>Comedy</li>
+              <li>
+                  <input type="checkbox" value="Horror"/>Horror</li>
+              <li>
+                  <input type="checkbox" value="Crime"/>Crime</li>
+              <li>
+                  <input type="checkbox" value="Thriller"/>Thriller</li>
+              <li>
+                  <input type="checkbox" value="Sci-fi"/>Sci-fi</li>
+              <li>
+                  <input type="checkbox" value="Animated"/>Animated</li>
+              <li>
+                  <input type="checkbox" value="Drama"/>Drama</li>
+              <li>
+                  <input type="checkbox" value="Romance"/>Romance</li>
+              <li>
+                  <input type="checkbox" value="Adventure"/>Adventure</li>
+              <li>
+                  <input type="checkbox" value="Western"/>Western</li>
+            </ul>
+          </div>
+        </div>
+        <button type="button" class="button filter">
+          Apply filter
+        </button>
+      </div>
+      <!-- This is the header section -->
+    </section>
+</body>
+</html>
